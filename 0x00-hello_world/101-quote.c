@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point, print Programming is like building a multilingual puzzle
+ * main - Entry point
  *
  * Return: 1
  */
