@@ -7,12 +7,13 @@
 int main(void)
 {
 	int i = 97, a = 65;
-    
-	while ( i <= 122){
+
+	while (i <= 122)
+	{
 		putchar(i);
 		i++;
 	}
-	while ( a <= 98)
+	while (a <= 90)
 	{
 		putchar(a);
 		a++;
