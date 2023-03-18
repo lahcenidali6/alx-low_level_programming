@@ -6,11 +6,17 @@
  */
 int main(void)
 {
-    for (int i = 97; i<=122; i++){
-        putchar(i);
-    }
-    for (int i = 65; i<=122; i++){
-        putchar(i);
+	int i = 97, a = 65;
+    
+	while ( i <= 122){
+		putchar(i);
+		i++;
 	}
+	while ( a <= 98)
+	{
+		putchar(a);
+		a++;
+	}
+	putchar('\n');
 	return (0);
 }
