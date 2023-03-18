@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Entry point, print Programming is like building a multilingual puzzle
  *
  * Return: Always 0 (Success)
  */
@@ -8,13 +8,11 @@ int main(void)
 {
     int i = 97;
     
-    while (i != 123){
+    while (i != 123)
+    {
         putchar(i);
-        if(i == 122)
-        {
-            putchar('\n');
-        }
         i++;
     }
-	return (0);
+    putchar('\n')
+    return (0);
 }
