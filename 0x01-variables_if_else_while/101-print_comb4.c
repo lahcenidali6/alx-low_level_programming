@@ -14,11 +14,11 @@ int main(void)
 		while (j < 57)
 		{
 			k = j;
-			while(k < 56)
+			while (k < 56)
 			{
 				putchar(i);
-				putchar(j+1);
-				putchar(k+2);
+				putchar(j + 1);
+				putchar(k + 2);
 				if (i != 55)
 				{
 					putchar(44);
