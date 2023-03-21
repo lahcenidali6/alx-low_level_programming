@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_alphabet-prints the alphabet, in lowercase
+ * _islower-prints the alphabet, in lowercase
  */
 int _islower(int c)
 {
-	if (c >= 97 || c <= 22)
+	if (c >= 97 || c <= 122)
 	{
 		return (1);
 	}
