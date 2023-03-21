@@ -8,4 +8,5 @@ void print_alphabet(void)
 		_putchar(c);
 		i++;
 	}
+	_ptchar("\n");
 }
