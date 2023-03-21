@@ -2,9 +2,9 @@
 /**
  * _islower - prints the alphabet, in lowercase
  *
- * Parameter C - the charachter we will check it
- *
  * Return: 1 if lowercase 0 otherwise
+ *
+ * C - the charachter we will check it
  */
 int _islower(int c)
 {
