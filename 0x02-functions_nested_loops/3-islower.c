@@ -4,7 +4,7 @@
  *
  * Return: 1 if lowercase 0 otherwise
  *
- *   member 'c' - the charachter we will check it
+ * parameter  'c' - the charachter we will check it
  */
 int _islower(int c)
 {
