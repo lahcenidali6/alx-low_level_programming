@@ -2,6 +2,8 @@
 /**
  * _islower - prints the alphabet, in lowercase
  *
+ * c - the characher
+ *
  * Return: 1 if lowercase 0 otherwise
  */
 int _islower(int c)
