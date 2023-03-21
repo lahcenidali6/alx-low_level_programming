@@ -2,7 +2,7 @@
 /**
  * _islower - prints the alphabet, in lowercase
  *
- * @c - the characher
+ * @c: the characher we will check it
  *
  * Return: 1 if lowercase 0 otherwise
  */
