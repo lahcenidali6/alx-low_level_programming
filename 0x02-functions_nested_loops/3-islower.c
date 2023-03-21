@@ -2,7 +2,7 @@
 /**
  * _islower - prints the alphabet, in lowercase
  *
- * parameter c - the charachter we will check it
+ * Parameter C - the charachter we will check it
  *
  * Return: 1 if lowercase 0 otherwise
  */
