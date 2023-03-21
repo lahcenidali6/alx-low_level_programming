@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _islower-prints the alphabet, in lowercase
+ * _islower - prints the alphabet, in lowercase
  *
- * c-the charachter we will check it
+ * c: the charachter we will check it
  *
- * Return-1 if lowercase 0 otherwise
+ * Return: 1 if lowercase 0 otherwise
  */
 int _islower(int c)
 {
