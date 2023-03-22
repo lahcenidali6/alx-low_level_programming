@@ -21,7 +21,10 @@ void times_table(void)
 			{
 				_putchar(44);
 				_putchar(32);
-				_putchar(32);
+				if (((i*(number+1))/10)==0)
+				{
+					_putchar(32);
+				}
 			}
 		}
 		_putchar('\n');
