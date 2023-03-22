@@ -18,7 +18,7 @@ void print_times_table(int n)
 				 index = i * number;
 				 if ((index / 10) != 0)
 				 {
-					 _putchar((index / 10) + '0')
+					 _putchar((index / 10) + '0');
 				 }
 				 _putchar((index % 10) + '0');
 				 if (number != 9)
