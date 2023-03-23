@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include<main.h>
 /**
  * main - check the code
  *
@@ -11,23 +10,22 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			_putchar(65);
+			printf("FizzBuzz ");
 		}
-		else if (i % 5 == 0)
+		else if ((i % 5) == 0)
 		{
-			_putchar(65);
+			printf("Buzz ");
 		}
-		else if (i % 3 == 0)
+		else if ((i % 3) == 0)
 		{
-			_putchar(65);
+			printf("Fizz ");
 		}
 		else
 		{
-			_putchar(65);
+			printf("%d ", i);
 		}
 	}
-	_putchar('\');
-	return (0);
+	printf("\n");
 }
