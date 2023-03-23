@@ -4,16 +4,16 @@
  *
  * @c: the characher we will check it
  *
- * : 1 if uppercase 0 otherwise
+ *Return : 1 if uppercase 0 otherwise
  */
 int _isupper(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 65 && c <= 90)
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
