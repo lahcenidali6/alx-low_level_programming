@@ -4,7 +4,7 @@
  *
  * @c: the characher we will check it
  *
- * Return: 1 if uppercase 0 otherwise
+ * : 1 if uppercase 0 otherwise
  */
 int _isupper(int c)
 {
