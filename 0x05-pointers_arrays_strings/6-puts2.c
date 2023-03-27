@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _puts - prints every other character of a string
+ * puts2 - prints every other character of a string
  * @str: The string to print
  */
-void _puts(char *str)
+void puts2(char *str)
 {
 	int i = 0;
 
