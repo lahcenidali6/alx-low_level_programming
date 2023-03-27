@@ -3,7 +3,7 @@
  * print_rev - prints a string, in reverse
  * @s: The string
  */
-oid print_rev(char *s)
+void print_rev(char *s)
 {
 	int len = 0;
 
