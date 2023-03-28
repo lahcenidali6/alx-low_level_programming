@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * puts_half - prints half of a string
- * @str: The string to print
+ * print_array - prints half of a string
+ * @a: array
+ * @n:  is the number of elements
  */
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
 	int i;
 
