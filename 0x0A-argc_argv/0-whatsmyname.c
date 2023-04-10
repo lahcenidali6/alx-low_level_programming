@@ -2,10 +2,11 @@
 /**
  * main - Entry point,
  * @argc: argument
+ * @argv: argument
  * Return: Always 0 (Success)
  */
-int main(int argc)
+int main(int argc, char *argv[])
 {
-	printf("%d", argc);
+	printf("%s", argv[0]);
 	return (0);
 }
