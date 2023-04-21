@@ -5,7 +5,7 @@
  * sum_them_all - Adds all of the argumens
  * @n: Number of arguments
  *
- * Return: Sum 
+ * Return: Sum of n number of arguments given
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -15,7 +15,8 @@ int sum_them_all(const unsigned int n, ...)
 
 	if (n == 0)
 		return (0);
-  
+
+	/* initialize valist for num number of arguments */
 	va_start(valist, n);
 
 	for (i = 0; i < n; i++)
